@@ -1,0 +1,22 @@
+{
+  "name": "tik-vt",
+  "version": "1.0.0",
+  "description": "This is test cli",
+  "bin": {
+    "vt-ls": "bin/vt-ls",
+    "vt-init": "bin/vt-init"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tik",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.3"
+  }
+}

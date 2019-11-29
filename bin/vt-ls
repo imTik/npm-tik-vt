@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const chalk = require('chalk');
+const ora = require('ora');
+const download = require('download-git-repo');
+
+program
+  .version('0.1.0')
+  .command('init', '初始化项目')
+  .parse(process.argv);
