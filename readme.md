@@ -1,5 +1,5 @@
-## Use tik-vt 
+## Use Vue Template
 ---
 ### npm i tik-vt -g
 
-### vt-init project name
+### new-project <name>
