@@ -2,4 +2,4 @@
 ---
 ### npm i tik-vt -g
 
-### new-project <name>
+### new-project 'name'
